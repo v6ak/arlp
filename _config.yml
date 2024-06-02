@@ -56,4 +56,5 @@ plugins:
 #   - vendor/ruby/
 
 sass:
+  sass_dir: assets/css
   style: compact # possible values: nested expanded compact compressed
