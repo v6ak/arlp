@@ -31,7 +31,7 @@ instagram_username: foobar
 facebook_username: foobar
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
