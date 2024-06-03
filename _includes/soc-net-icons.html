@@ -14,4 +14,7 @@
 	{% if site.instagram_username %}
 		<li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon brands fa-instagram{{ class_suffix }}"><span class="label">Instagram</span></a></li>
 	{% endif %}
+	{% if site.mastodon_link %}
+		<li><a href="{{ site.mastodon_link }}" class="icon brands fa-mastodon{{ class_suffix }}"><span class="label">Mastodon</span></a></li>
+	{% endif %}
 </ul>

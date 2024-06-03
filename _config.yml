@@ -29,6 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 instagram_username: plnymi_dousky
 facebook_username: profile.php?id=100082599640883
+#mastodon_link: https://some-link-to-your/mastodon/account
 
 # Build settings
 #theme: minima
