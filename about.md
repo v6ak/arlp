@@ -11,6 +11,7 @@ You can find the source code for Minima at GitHub:
 [minima](https://github.com/jekyll/minima)
 
 **Co můžu na prvním poradenství očekávat?**
+
 Schůzka bude trvat přibližně 75 minut a bude zaměřena na poskytnutí veškeré potřebné podpory a informací týkajících se kojení. Na schůzku si prosím přineste všechny údaje o hmotnosti Vašeho děťátka, které máte k dispozici. Dále si připravte seznam léků, které užíváte Vy nebo Vaše děťátko, včetně informací o dávkování. Pokud máte propouštěcí zprávu z porodnice a jste ochotna mi do ní nahlédnout, vezměte ji s sebou.
 Během poradenství bude možná potřeba, abych se dotýkala Vašeho děťátka nebo Vašeho prsa, abych mohla správně posoudit situaci. Pokud preferujete jiný přístup, dejte mi to prosím vědět při setkání. Na schůzku přijďte společně s děťátkem, a pokud chcete, ráda uvítám i Vašeho partnera či jiný doprovod.
 Přineste si všechny pomůcky, které používáte na kojení nebo krmení děťátka. Pokud dokrmujete umělou výživou, vezměte ji s sebou, včetně pomůcek na její přípravu a krmení. Pokud používáte odstříkané mateřské mléko, přineste ho také. Připravte si seznam všech otázek, které máte ohledně kojení, abychom mohly probrat vše, co Vás zajímá. Pokud se chcete naučit nosit děťátko v šátku nebo nosítku, přineste si ho s sebou.
