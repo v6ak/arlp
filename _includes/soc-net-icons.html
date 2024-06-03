@@ -1,0 +1,17 @@
+{% if include.class %}
+	{% assign class_suffix = " " | append: include.class %}
+{% else %}
+	{% assign class_suffix = "" %}
+{% endif %}
+
+<ul class="icons{{ class_suffix }}">
+	{% if site.twitter_username %}
+		<li><a href="https://x.com/{{ site.twitter_username }}" class="icon brands fa-twitter{{ class_suffix }}"><span class="label">Twitter</span></a></li>
+	{% endif %}
+	{% if site.facebook_username %}
+		<li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon brands fa-facebook-f{{ class_suffix }}"><span class="label">Facebook</span></a></li>
+	{% endif %}
+	{% if site.instagram_username %}
+		<li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon brands fa-instagram{{ class_suffix }}"><span class="label">Instagram</span></a></li>
+	{% endif %}
+</ul>
