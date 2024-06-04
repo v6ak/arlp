@@ -16,6 +16,6 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: YOUR_ACCOUNT_ID
+          accountId: a94ab6b361c4808bf8f6e263459c580d
           projectName: YOUR_PROJECT_NAME
-          directory: site
+          directory: _site
