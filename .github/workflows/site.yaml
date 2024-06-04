@@ -23,7 +23,7 @@ jobs:
       - name: deploy over rsync
         run: |
           rsync \
-            -e "ssh -o UserKnownHostsFile=.known_hosts" \
+            -e "ssh -o UserKnownHostsFile=.known_hosts -i ../ssh_key" \
             --delete-after \
             -av \
             _site \
