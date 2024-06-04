@@ -1,7 +1,7 @@
 name: Build and deploy Jekyll site
 on:
  push:
-   branches: ["feature/deploy"]
+   branches: ["feature/deploy-cloudflare"]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,17 +12,10 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Store SSH private key
-        run: |
-          cat > ../ssh_key <<< $PRIVATE_KEY
-        shell: bash
-        env:
-          PRIVATE_KEY : ${{secrets.SSH_PRIVATE_KEY}}
-      - name: deploy over rsync
-        run: |
-          rsync \
-            -e "ssh -o UserKnownHostsFile=.known_hosts -i ../ssh_key" \
-            --delete-after \
-            -av \
-            _site \
-            remote@hosting:/directory
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: YOUR_ACCOUNT_ID
+          projectName: YOUR_PROJECT_NAME
+          directory: site
