@@ -12,5 +12,5 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: deploy
+      - name: deploy over rsync
         run: rsync --delete-after -av _site remote@hosting:/directory
