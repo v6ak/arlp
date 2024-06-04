@@ -18,6 +18,11 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - name: show results
+        run: find
+      - name: witch
+        run: which ssh rsync scp
+        
   #deploy:
   #  runs-on: ubuntu-latest
   #  needs: build
