@@ -13,4 +13,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
       - name: deploy over rsync
-        run: rsync -e "ssh -o UserKnownHostsFile=.known_hosts" --delete-after -av _site remote@hosting:/directory
+        run: |
+          rsync \
+            -e "ssh -o UserKnownHostsFile=.known_hosts" \
+            --delete-after \
+            -av \
+            _site \
+            remote@hosting:/directory
