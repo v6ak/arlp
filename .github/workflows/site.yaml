@@ -16,6 +16,7 @@ jobs:
         run: |
           pwd
           cat > ../ssh_key <<< $PRIVATE_KEY
+          ls ..
         shell: bash
         env:
           PRIVATE_KEY : ${{secrets.SSH_PRIVATE_KEY}}
