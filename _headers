@@ -1,0 +1,5 @@
+# HTTP headers for Cloudflare Pages
+
+/*
+  Strict-transport-security: max-age=15552000
+  # TODO: ; preload
